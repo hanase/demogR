@@ -6,7 +6,7 @@ function(A,at=0){
     }
     else{
       len <- length(A)
-      B <- matrix(0,nr=len+abs(at), nc=len+abs(at))
+      B <- matrix(0,nrow=len+abs(at), ncol=len+abs(at))
       B[row(B)==col(B)-at] <- A
       return(B)
     }

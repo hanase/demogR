@@ -1,0 +1,31 @@
+# import functions
+importFrom("grDevices", "xy.coords")
+  importFrom("graphics", "axis", "barplot", "box", "lines", "plot.new",
+             "plot.window", "title")
+  importFrom("stats", "approx", "cov")
+  
+# export functions
+export(
+    calc.ro,
+    cdmltw,
+     coale,
+     cohort,
+    eigen.analysis,
+    elassens,
+    fullsecder,
+    gen.time,
+    keyfitz,
+    lams,
+    leslie.matrix,
+    leslie.row1,
+    life.table,
+    loop.elas,
+    m2v,
+    odiag,
+    project.leslie,
+    secder,
+    stoch.sens
+)
+
+# register S3 methods
+S3method(plot, leslie.matrix)

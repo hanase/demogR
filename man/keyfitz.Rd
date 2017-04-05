@@ -31,9 +31,6 @@ Keyfitz, N., and W. Flieger. 1990. World population growth and
   University of Chicago Press.
  }
 
-
-
-}
 \seealso{  \code{\link{life.table}} }
 \examples{
 data(goodman)

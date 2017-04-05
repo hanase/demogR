@@ -15,8 +15,8 @@ age-structured population models.  For a list of functions, type:
 \tabular{ll}{
 Package: \tab demogR\cr
 Type: \tab Package\cr
-Version: \tab 0.4.2\cr
-Date: \tab 2007-08-28\cr
+Version: \tab 0.5.0\cr
+Date: \tab 2017-04-04\cr
 License: \tab GPL version 2.0 or newer \cr
 }
 
@@ -25,16 +25,17 @@ License: \tab GPL version 2.0 or newer \cr
 	      Department of Anthropological Sciences\cr
 	      Stanford University\cr
 
-Maintainer: James Holland Jones <jhj1@stanford.edu>
+Maintainer: Hana Sevcikova <hanas@uw.edu>
 
 }
 \references{
-
 Caswell, H. 2001. Matrix population models: Construction, analysis,
 and interpretation. 2nd ed. Sunderland, MA: Sinauer. 
 
 Coale, A.J. 1972. The growth and structure of human populations: A
 mathematical investigation. Princeton: Princeton University Press. 
+
+Jone, J.H. (2007). demogR: A Package for the Construction and Analysis of Age-structured Demographic Models in R. Journal of Statistical Software, 22(10), 1-28.
 
 Keyfitz, N. 1977. Introduction to the mathematics of populations. 2nd
 ed. Menlo Park: Addison-Wesley.

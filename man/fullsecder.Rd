@@ -54,8 +54,7 @@ fs <- fullsecder(usa)
 ## plot the survival cross-second derivatives of lambda with respect
 ## to infant survival
 
-plot( seq(0,40,by=5), fs["21",10:18], 
-         type="l", 
+plot( seq(0,40,by=5), fs["21",10:18], type="l", 
 	 xlab="Age (j)", 
 	 ylab=expression(paste(partialdiff^2 , lambda, "/", 
 	 partialdiff, P[1] , partialdiff, P[j])))

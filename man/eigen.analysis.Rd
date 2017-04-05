@@ -38,10 +38,10 @@ eigen.analysis(A)
   upper bound.
 
   The eigenvalue sensitivities are the partial derivatives of lambda
-  with respect to a perturbation in matrix element $a_ij$.  The
+  with respect to a perturbation in matrix element \eqn{a_{ij}}.  The
   sensitivities measure the selection gradient on the life-cycle
   (Lande 1982).   The eigenvalue elasticities are scaled to be
-  proportional sensitivities of lambda to a perturbation in $a_ij$.
+  proportional sensitivities of lambda to a perturbation in \eqn{a_{ij}}.
   Elasticities have a number of desirable properties including, their
   sum across all life-cycle transitions is unity and the sum of the
   elasticities of all  incoming arcs to a life-cycle stage must equal
@@ -120,13 +120,11 @@ eau$lambda1
 op <- par(no.readonly = TRUE)
 age <- seq(0,50,by=5)
 par(mfrow=c(1,2))
-barplot(eav$stable.age, 
-             names.arg=age, 
+barplot(eav$stable.age, names.arg=age, 
 	     horiz=TRUE, 
 	     col="grey", 
 	     ylab="Age")
-barplot(eau$stable.age, 
-	     names.arg=age[-11], 
+barplot(eau$stable.age, names.arg=age[-11], 
 	     horiz=TRUE, 
 	     col="blue", 
 	     ylab="Age", 

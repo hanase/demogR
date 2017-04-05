@@ -25,7 +25,8 @@ column of the life table.
 \seealso{  \code{\link{life.table}} }
 \examples{
 data(thar)
-thar.lt <- with(thar, life.table(x=age, nDx=deaths, nKx=count, type="cohort", iwidth=1, width12=c(1,1)))
+thar.lt <- with(thar, life.table(x=age, nDx=deaths, nKx=count, 
+    type="cohort", iwidth=1, width12=c(1,1)))
 thar.lt
 }
 \keyword{ array }

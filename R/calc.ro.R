@@ -5,7 +5,7 @@ function(A,N.out=FALSE){
   k <- dim(A)[1]
   T <- A
   T[1,] <- 0                     # matrix of transitions
-  F <- matrix(0,nr=k,nc=k)
+  F <- matrix(0,nrow=k,ncol=k)
   F[1,] <- A[1,]                 # matrix of births
   N <- solve(diag(k)-T)          # fundamental matrix
   ev <- eigen(F%*%N)

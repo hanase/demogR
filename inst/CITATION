@@ -1,0 +1,19 @@
+citHeader("To cite demogR in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{demogR}: A Package for the Construction and Analysis of Age-structured Demographic Models in {R}",
+  author       = personList(as.person("James Holland Jones")),
+  journal      = "Journal of Statistical Software",
+  year         = "2007",
+  volume       = "22",
+  number       = "10",
+  pages        = "1--28",
+  url          = "http://dx.doi.org/10.18637/jss.v022.i10",
+
+  textVersion  =
+  paste("James Holland Jone (2007).",
+        "demogR: A Package for the Construction and Analysis of Age-structured Demographic Models in R.",
+        "Journal of Statistical Software, 22(10), 1-28.",
+        "URL http://dx.doi.org/10.18637/jss.v022.i10.")
+)
+

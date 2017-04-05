@@ -22,9 +22,9 @@ secder(A, k, l)
 }
 \value{
 
-  A square matrix of the same rank as A where each element $s_ij$ is the
-  second derivative of the dominant eigenvalue of A, $\partial^2
-  \lambda/\partial a_{ij} \partial a_{kl}$.
+  A square matrix of the same rank as A where each element \eqn{s_{ij}} is the
+  second derivative of the dominant eigenvalue of A, \eqn{\partial^2
+  \lambda/\partial a_{ij} \partial a_{kl}}.
 
 }
 \references{  

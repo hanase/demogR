@@ -1,9 +1,9 @@
 `secder` <-
 function(A,k,l){
   n <- dim(A)[1]
-  svec <- matrix(0,nr=n^2,nc=n)
-  scalesens <- matrix(0,nr=n^2,nc=n-1)
-  d2 <- matrix(0,nr=n,nc=n)
+  svec <- matrix(0,nrow=n^2,ncol=n)
+  scalesens <- matrix(0,nrow=n^2,ncol=n-1)
+  d2 <- matrix(0,nrow=n,ncol=n)
   ev <- eigen(A)
   L <- ev$values
 
@@ -19,7 +19,7 @@ function(A,k,l){
   for(i in 1:n){
     senmat <- Conj(V[,i])  %*%  t(W[,i])
 
-    svec[,i] <- matrix(senmat,nr=n^2,nc=1)
+    svec[,i] <- matrix(senmat,nrow=n^2,ncol=1)
   }
 
   s1 <- svec[,1]

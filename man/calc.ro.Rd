@@ -4,7 +4,7 @@
 \title{ Caclulate net reproduction number from a demographic
 projection matrix  }
 \description{
-  Calculate the net reproduction number ($R_0$) from an age or
+  Calculate the net reproduction number (\eqn{R_0}) from an age or
   stage-classified demographic projection matrix.
 }
 \usage{
@@ -16,14 +16,14 @@ calc.ro(A, N.out = FALSE)
   \item{N.out}{ Return the fundamental matrix (N) of the Markov chain? }
 }
 \details{
-  Calculates the net reproduction number ($R_0$) from an age or
+  Calculates the net reproduction number (\eqn{R_0}) from an age or
   stage-classified demographic projection matrix by first decomposing
   the k x k projection matrix A into two component matrices, T and F.  T
   collects the transitions between life-cycle stages while F collects
   the fertility transitions.  For an age-classified Leslie matrix, T
   will contain only the sub-diagonal of A and F will contain only the
-  first row of A.  The fundamental matrix is given by $N = (I-T)^-1$,
-  where I is a k x k identity matrix.  $R_0$ is the leading eigenvalue
+  first row of A.  The fundamental matrix is given by \eqn{N = (I-T)^{-1}},
+  where I is a k x k identity matrix.  \eqn{R_0} is the leading eigenvalue
   of the matrix FN.
 }
 \value{
@@ -47,7 +47,7 @@ Px <- c(0.77, 0.95, 0.98, 0.97)
 Fx <- c(0,0,1,1.2,1)
 L <- odiag(Px,-1)
 L[1,] <- Fx
-## Calculate $R_0$
+## Calculate R_0
 calc.ro(L)
 ## look at the fundamental matrix
 calc.ro(L, N.out=TRUE)

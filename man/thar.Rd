@@ -29,12 +29,12 @@ Caughley, G. 1966. Mortality patterns in mammals. Ecology 47:906-918.
 \examples{
 data(thar)
 thar.lt <- with(thar, 
-	        life.table(x=age, 
-		nDx=deaths, 
-		nKx=count, 
-		type="cohort", 
-		iwidth=1, 
-		width12=c(1,1)))
+    life.table(x=age, 
+        nDx=deaths, 
+        nKx=count, 
+        type="cohort", 
+        iwidth=1, 
+        width12=c(1,1)))
 thar.lt
 }
 \keyword{datasets}

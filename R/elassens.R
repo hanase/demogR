@@ -7,7 +7,7 @@ function(A,k,l){
   skl <- s[k,l]
   d2 <- secder(A,k,l)
 
-  delta.kl <- matrix(0,nr=rank,nc=rank)
+  delta.kl <- matrix(0,nrow=rank,ncol=rank)
   delta.kl[k,l] <- 1
 
   es <- (A/lambda) * d2 - (A/lambda^2) * s*skl + delta.kl * s/lambda

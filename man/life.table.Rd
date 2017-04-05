@@ -102,9 +102,10 @@ vlt$nax[1:2]
 vlt1$nax[1:2]
 
 ## now construct a cohort life table for Himalayan thar,
-##  (\emph{Hemitargus jemlahicus}) 
+##  (Hemitargus jemlahicus) 
 data(thar)
-thar.lt <- with(thar, life.table(x=age, nDx=deaths, nKx=count, type="cohort", iwidth=1, width12=c(1,1)))
+thar.lt <- with(thar, life.table(x=age, nDx=deaths, nKx=count, 
+    type="cohort", iwidth=1, width12=c(1,1)))
 thar.lt
 }
 

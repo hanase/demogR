@@ -18,15 +18,15 @@ gen.time(A, peryear = 5)
   Calculates the generation time (T) for an age or stage-classified
   demographic projection matrix using the identity 
 
-  $R_0 = \exp(r*T)$
+  \eqn{R_0 = \exp(r*T)}
 
-  where $R_0$ is the net reproduction number and r is the intrinsic rate
+  where \eqn{R_0} is the net reproduction number and r is the intrinsic rate
   of increase (=log(lambda)).  
 
   Generation time is the amount of time that it takes a typical female
-  to produce $R_0$ offspring or, equivalently, the amount of time it
+  to produce \eqn{R_0} offspring or, equivalently, the amount of time it
   takes a population growing with instantaneous rate r to increase by
-  a factor of $R_0$.
+  a factor of \eqn{R_0}.
 }
 \value{
 
@@ -44,7 +44,7 @@ Preston, S.H., P. Heuveline, and F. Guillot. 2001. Demography:
  Measuring and modeling population processes. Oxford: Blackwell. 
  }
 
-\note{ Calls function \code{calc.ro}, which calculates $R_0$ from the
+\note{ Calls function \code{calc.ro}, which calculates \eqn{R_0} from the
  fundamental matrix of the Markov transition matrix (Caswell 2001).
 
 }
