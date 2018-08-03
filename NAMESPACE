@@ -7,6 +7,9 @@ importFrom("grDevices", "xy.coords")
 # export functions
 export(
     calc.ro,
+    cdmlte,
+    cdmltn,
+    cdmlts,
     cdmltw,
      coale,
      cohort,

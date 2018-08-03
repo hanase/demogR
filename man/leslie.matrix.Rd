@@ -24,7 +24,7 @@ leslie.matrix(lx, mx,
   be cumulative survival to exact age x+n.  Defaults to 'TRUE'. }
   \item{peryear}{ Multiplier for fertility.  Defaults to \code{peryear=5}. }
   \item{one.sex}{ logical; If 'TRUE', fertility rates will be divided
-  by 1/(1+SRB). }
+  by (1+SRB). }
   \item{SRB}{ sex ratio at birth.  Defaults to \code{SRB=1.05}. }
   \item{infant.class}{ logical;  'TRUE' if \code{lx} contains a value
   for the infant age-class.   }

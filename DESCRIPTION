@@ -1,8 +1,8 @@
 Package: demogR
 Type: Package
 Title: Analysis of Age-Structured Demographic Models
-Version: 0.5.0
-Date: 2017-04-04
+Version: 0.5.1
+Date: 2018-08-03
 Author: James Holland Jones <jhj1@stanford.edu>
 Maintainer: Hana Sevcikova <hanas@uw.edu>
 Description: Construction and analysis of matrix population models in R.

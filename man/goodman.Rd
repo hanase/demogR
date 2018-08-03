@@ -4,7 +4,7 @@
 \title{ Demographic data from Venezuela, Madagascar and the United
 States in the late 1960s}
 \description{
-  Aggregate vital registration data from Venezuela (1965), Madagascar
+  Aggregate vital registration data for female from Venezuela (1965), Madagascar
   (1966), and the United States (1967) used in Goodman, Keyfitz, and
   Pullam (1974).
 }
@@ -28,7 +28,7 @@ States in the late 1960s}
 \details{
   Vital event data tabulated by Keyfitz and Flieger (1990) and used by
   Goodman et al. (1974) to illustrate their kinship frequency
-  calculations.  The three populations represent tremendous diversity
+  calculations.  The three female populations represent tremendous diversity
   in age-specific demographic schedules.  Venezuela (1965) is characterized
   by low mortality and high fertility;  Madagascar (1966) is
   characterized by very high mortality and fertility, while the United

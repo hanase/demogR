@@ -1,0 +1,17 @@
+2018-08-03 v.0.5.1
+----------
+Functions cdmlte, cdmltn and cdmlts were not exported from the namespace. Fixed.
+(Bug reported by Marius Pascariu.)
+
+Fixes in documentation (reported by Tamas Ferenci).
+
+ChangeLog file added.
+
+2017-04-04 v.0.5.0
+----------
+Package revived from CRAN archives.
+
+2007-10-16 v.0.4.2
+----------
+Initial version on CRAN.
+
