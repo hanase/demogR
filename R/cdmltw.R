@@ -1,7 +1,5 @@
+# Model West ------------------------------------
 # With correction by Jim Oeppen (September 2018)
-#   kappa  <- (1/27.5)*log( m105 / m77 )  # THIS CORRECTS COALE'S MISTAKE
-
-# Model West --------------------------------------------------------------
 
 cdmltw <- function(sex = "F"){
     if (sex != "F" & sex !="M")
