@@ -118,7 +118,8 @@ cdmltn <- function(sex = "F"){
         Tx   <-  ( T100 %o%  rep(1,21) ) + Tx[,K]
         ex   <-  Tx/lx
         
-        out <- list(age=xx,width=nn,lx=lx,nqx=nqx,nax=nax,ndx=ndx,nLx=nLx,nmx=nmx,Tx=Tx,ex=ex)
+        out <- list(age = xx, width = nn, e10 = eten, 
+                    lx=lx,nqx=nqx,nax=nax,ndx=ndx,nLx=nLx,nmx=nmx,Tx=Tx,ex=ex)
         return(out)
     }  # end Female part     
 
@@ -238,7 +239,8 @@ cdmltn <- function(sex = "F"){
     Tx   <-  ( T100 %o%  rep(1,21) ) + Tx[,K]
     ex   <-  Tx/lx
 
-    out <- list(age=xx,width=nn,lx=lx,nqx=nqx,nax=nax,ndx=ndx,nLx=nLx,nmx=nmx,Tx=Tx,ex=ex)
+    out <- list(age = xx,width = nn,lx = lx, e10 = eten, 
+                nqx=nqx,nax=nax,ndx=ndx,nLx=nLx,nmx=nmx,Tx=Tx,ex=ex)
 
     return(out)
 }
