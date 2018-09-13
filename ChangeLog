@@ -1,3 +1,9 @@
+2018-09-13 v.0.6.0
+----------
+Functions cdmltw, cdmlte, cdmltn and cdmlts fixed by Jim Oeppen.
+
+Added Jim Oeppen as a contributor.
+
 2018-08-03 v.0.5.1
 ----------
 Functions cdmlte, cdmltn and cdmlts were not exported from the namespace. Fixed.
@@ -9,7 +15,7 @@ ChangeLog file added.
 
 2017-04-04 v.0.5.0
 ----------
-Package revived from CRAN archives.
+Package revived from CRAN archives. Change of a maintainer.
 
 2007-10-16 v.0.4.2
 ----------

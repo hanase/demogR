@@ -21,20 +21,23 @@ cdmltn(sex = "F")
 
 \details{
 
-  Provides model life tables for 25 different levels of mortality,
+  Provides region-specific model life tables for 25 different levels of mortality,
   indexed by life expectancy at age 10 (with 1 being the lowest and 25
-  being the highest life expectancy at age 10).
+  being the highest life expectancy at age 10). 
+  
+  The regions are West (\code{cdmltw}), East (\code{cdmlte}), South (\code{cdmlts}), and North (\code{cdmltn}).
 
 }
 
 \value{
 
-  A list containing two 21 element vectors and eight 25 x 21 matrices:
+  A list containing two 21 element vectors, one 25 element vector and eight 25 x 21 matrices:
   25 mortality levels by 21 age classes.  The eight matrices contain
   the standard columns of a life table for each mortality level:
 
   \item{ age }{ the 21 age classes }
   \item{ width }{widths of the 21 age classes}
+  \item{ e10 }{ the 25 mortality levels as life expectancy at age 10}
   \item{ lx }{survival probabilities to exact age x }
   \item{ nqx }{ probabilities of death between ages x and x+n}
   \item{ nax }{ person-years lived by those dying between ages x and
@@ -57,6 +60,8 @@ California, Berkeley.
 
 Modified by James Holland Jones, Department of Anthropological
 Sciences, Stanford University
+
+Corrected by Jim Oeppen, Southern Denmark University, Odense, Denmark
  }
 
 \seealso{  \code{\link{life.table}} }

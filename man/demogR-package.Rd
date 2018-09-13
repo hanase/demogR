@@ -15,15 +15,17 @@ age-structured population models.  For a list of functions, type:
 \tabular{ll}{
 Package: \tab demogR\cr
 Type: \tab Package\cr
-Version: \tab 0.5.0\cr
-Date: \tab 2017-04-04\cr
+Version: \tab 0.6.0\cr
+Date: \tab 2018-09-13\cr
 License: \tab GPL version 2.0 or newer \cr
 }
 
 }
 \author{ James Holland Jones\cr
 	      Department of Anthropological Sciences\cr
-	      Stanford University\cr
+	      Stanford University
+
+Contributor: Jim Oeppen, Southern Denmark University, Odense, Denmark
 
 Maintainer: Hana Sevcikova <hanas@uw.edu>
 
